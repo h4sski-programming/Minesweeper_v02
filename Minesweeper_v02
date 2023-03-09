@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T18:23:36.861Z" agent="5.0 (X11; Ubuntu)" version="21.0.2" etag="ylDipZuuuwkMXyqJuXce" type="github"><diagram name="Page-1" id="L3zCeyHjeztr8kGdRsg3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-09T21:26:08.147Z" agent="5.0 (X11; Ubuntu)" etag="rgRfPWNl9zyv0aen3ToK" version="21.0.2" type="github">
+  <diagram name="Page-1" id="L3zCeyHjeztr8kGdRsg3">
+    <mxGraphModel dx="1584" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-2" target="AfU6IEu33a1v7PAwNpb6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-2" target="AfU6IEu33a1v7PAwNpb6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-2" target="AfU6IEu33a1v7PAwNpb6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-2" value="self.root = tk.Tk()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-4" target="AfU6IEu33a1v7PAwNpb6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-4" target="AfU6IEu33a1v7PAwNpb6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-4" target="AfU6IEu33a1v7PAwNpb6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-4" value="self.top_frame = tk.Frame(self.root)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80.05" y="200" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-7" value="title_label = tk.Label" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120.05" y="240" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-8" value="mines_label = tk.Label" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120.05" y="280" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-9" target="AfU6IEu33a1v7PAwNpb6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-9" value="self.mine_frame = tk.Frame(self.root)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80.05" y="400" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-10" value="&lt;div&gt;btn = tk.Button(master=self.mine_frame&lt;/div&gt;&lt;div&gt;in the grid drawn by Settings.size_x and Settings.size_y&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120.05" y="440" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="AfU6IEu33a1v7PAwNpb6-14" target="AfU6IEu33a1v7PAwNpb6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-14" value="self.bottom_frame = tk.Frame(self.root)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80.05" y="560" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-15" value="footer_label = tk.Label" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120.05" y="600" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-17" value="quit_btn = tk.Button" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120.05" y="320" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AfU6IEu33a1v7PAwNpb6-30" value="&lt;div&gt;tk widow layout&lt;/div&gt;&lt;div&gt;class Main():&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" width="480" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
