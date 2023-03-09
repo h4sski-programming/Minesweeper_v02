@@ -1,5 +1,5 @@
 import tkinter as tk
-eE
+
 from settings import Settings
 from mine_matrix import Mine_matrix
 
@@ -23,6 +23,9 @@ class Main():
         title_label = tk.Label(self.top_frame, text='Minesweeper v02', font=('Arial', 22))
         title_label.pack()
         
+        mines_label = tk.Label(self.top_frame, text=f'There are {self.mine_matrix.number_of_mines} mines', font=('Arial', 12))
+        mines_label.pack()
+        
         self.top_frame.pack(padx=10, pady=10)
         
         
@@ -34,7 +37,7 @@ class Main():
         
         for i in range(Settings.size_y):
             for j in range(Settings.size_x):
-                btn = tk.Button(master=self.mine_frame, text='')
+                btn = tk.Button(master=self.mine_frame, text=self.mine_matrix.matrix[i][j])
                 btn.grid(row=i, column=j)
         
         self.mine_frame.pack(padx=10, pady=10)

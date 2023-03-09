@@ -3,7 +3,7 @@
 ### Purpouse of this project
 
 Lern more about python by trying to re-create minesweeper game. v01 was a try using Tkinter, but dont know how to make action from "command" on button to other class and there make some actions.
-Tris version I'm going ot use [????]
+Tris version I'm going ot use Tkinter again but in differet way.
 
 
 ## Diagram
